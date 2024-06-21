@@ -1,0 +1,4946 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #6B000E;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/main/images/fon1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0vh 10vh;
+}
+header{
+    width: 100%;
+    height: 13vh;
+    background-color: #1F0307;
+    box-shadow: 0vh 1vh 1vh #1F0307;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header11{
+    width: 7%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo1{
+    height: 100%;
+}
+.header12{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10vw;
+}
+.head-button1{
+    width: 7vw;
+    height: 4.3vh;
+    border: none;
+    background-color: #430710;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-size: 3vh;
+    border-radius: 0.5vh;
+    transition: 0.3s;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .head-button1-content {
+    display: none;
+    position: absolute;
+    left: 30vw;
+    top: 8vh;
+    width: 15vw;
+    height: 81.5vh;
+    background-color: #f9f9f9;
+    box-shadow: 0vh 0.5vh 2vh 1vh black;
+    border-radius: 1vh;
+    z-index: 1;
+  }
+  
+  .head-button1-content a {
+    float: none;
+    color: black;
+    padding: 1.5vh 1.5vw;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+.btn-content-link1{
+    font-family: "Roboto Mono", monospace;
+    font-size: 2vh;
+    font-weight: 700;
+}
+  
+  .head-button1-content a:hover {
+    background-color: #ddd;
+    border-radius: 1vh;
+    color: #FF0000;
+  }
+  
+  .dropdown:hover .head-button1-content {
+    display: block;
+  }
+
+
+.head-button1:hover{
+    background-color: #BA0018;
+    transition: 0.3s;
+    box-shadow: 0vh 0.5vh 2vh 1vh black;
+    border-radius: 1vh;
+}
+.head-button2{
+    width: 8vw;
+    height: 4.3vh;
+    border: none;
+    background-color: #430710;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-size: 3vh;
+    border-radius: 0.5vh;
+}
+.head-button2:hover{
+    background-color: #BA0018;
+    transition: 0.3s;
+}
+.head-button3{
+    width: 7vw;
+    height: 4.3vh;
+    border: none;
+    background-color: #430710;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-size: 3vh;
+    border-radius: 0.5vh;
+}
+.head-button3:hover{
+    background-color: #BA0018;
+    transition: 0.3s;
+}
+.header13{
+    width: 22%;
+    height: 100%;
+    display: flex;
+    text-align: left;
+    justify-content: right;
+    align-items: center;
+}
+.head-text1{
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-size: 3vh;
+    font-weight: 300;
+}
+
+
+
+.tittle-center-text{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.tittle-text1{
+    width: 100%;
+    height: 24vh;
+    font-size: 10vh;
+    font-family: "Russo One", sans-serif;
+    color: white;
+    margin-top: 16vh;
+    text-shadow: 0.5vh 0.5vh 0.5vh black;  
+}
+.tittle-text2{
+    color: #B50000;
+}
+
+
+
+.main-bottom{
+    width: 100%;
+    height: 27vh;
+    background-color: #212121;
+    box-shadow: 0vh -5vh 3vh #212121;
+}
+.main-bottom-text1{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 4.5vh;
+    font-weight: 900;
+    font-style: italic;
+    margin-left: 5vw;
+    margin-right: 17vw;
+    letter-spacing: -0.05vw;
+    text-shadow: 0.5vh 0.5vh 0.5vh black;
+}
+.main-bottom-text2{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 3.5vh;
+    font-weight: 200;
+    margin-left: 5vw;
+    margin-top: 2vh;
+    text-shadow: 0.5vh 0.5vh 0.5vh black;
+}
+
+
+
+.section1{
+    width: 100%;
+    height: 100vh;
+    background-color: #6B000E;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.div-text11{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.text11{
+    font-size: 6vh;
+    font-family: "Russo One", sans-serif;
+    color: white;
+    text-shadow: 0.5vh 0.5vh 0.1vh black;
+    text-align: center;
+}
+.div-text12{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text12{
+    font-size: 2.5vh;
+    font-family: "Inter", sans-serif;
+    color: white;
+    text-shadow: 0.3vh 0.3vh 0.1vh black;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+}
+.card-box1{
+    width: 55%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card-box-item1{
+    width: 11.5vw;
+    height: 30vh;
+    background-color: #FFFFFF;
+    border-radius: 2.5vh;
+}
+.card-box-div-image1{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-icon1{
+    width: 50%;
+}
+.card-box-div-text1{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-text1{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 3vh;
+    font-family: "Inter", sans-serif;
+    color: black;
+}
+.div-button1{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.button-aboutus{
+    width: 10vw;
+    height: 6vh;
+    border: none;
+    background-color: #860012;
+    border-radius: 0.8vh;
+    font-size: 3.5vh;
+    font-family: "Russo One", sans-serif;
+    box-shadow: 0.5vh 0.5vh 0.5vh black;
+    color: white;
+    transition: 0.3s;
+}
+.button-aboutus:hover{
+    background-color: #B50000;
+    box-shadow: 0.5vh 0.5vh 0.5vh black;
+    transition: 0.3s;
+}
+
+
+
+.section2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #6B000E;
+}
+.title-section2{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.title-section2-text1{
+    font-size: 6.5vh;
+    font-family: "Russo One", sans-serif;
+    color: white;
+    text-shadow: 0.5vh 0.5vh 0.1vh black;
+}
+.uslugi{
+    width: 70%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.usluga1{
+    width: 21vw;
+    height: 45vh;
+    background-color: #FFFFFF;
+    border-radius: 1.5vh;
+    margin-right: 1vw;
+}
+.img-usluga1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.usluga-img1{
+    width: 85%;
+    height: 85%;
+}
+.text-usluga1{
+    width: 100%;
+    height: 50%;
+}
+.usluga-text1{
+    font-family: "Inter", sans-serif;
+    color: black;
+    font-size: 2vh;
+    font-weight: 600;
+    margin-left: 1.5vw;
+}
+.usluga-text2{
+    font-family: "Inter", sans-serif;
+    color: black;
+    font-size: 1.8vh;
+    margin-left: 1.5vw;
+    margin-top: 2vh;
+}
+.section2-button1{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+}
+.button-uslugi{
+    width: 12vw;
+    height: 7vh;
+    border: none;
+    background-color: #860012;
+    border-radius: 0.8vh;
+    font-size: 3.5vh;
+    font-family: "Russo One", sans-serif;
+    color: white;
+    box-shadow: 0.5vh 0.5vh 0.5vh black;
+    transition: 0.3s;
+}
+.button-uslugi:hover{
+    background-color: #B50000;
+    box-shadow: 0.5vh 0.5vh 0.5vh black;
+    transition: 0.3s;
+}
+
+
+
+.section3{
+    width: 100%;
+    height: 100vh;
+    background-color: #6B000E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-fon1{
+    width: 100%;
+    height: 70%;
+    background-image: url(/main/images/fon-mercedes.png);
+    background-size: 100% 70vh;
+    background-repeat: no-repeat;
+}
+.img-fon-title-text{
+    width: 100%;
+    height: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.img-fon-text1{
+    text-align: center;
+    font-size: 5vh;
+    font-family: "Russo One", sans-serif;
+    color: white;
+    text-shadow: 0.3vh 0.3vh 0.3vh black;
+}
+.img-fon-text12{
+    color: #FF0000;
+}
+.img-fon-lil-text1{
+    width: 100%;
+    height: 53%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-fon-text2{
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 4vh;
+    text-shadow: 0.3vh 0.3vh 0.3vh black;
+    text-align: center;
+}
+
+
+
+.section4{
+    width: 100%;
+    height: 70vh;
+}
+.section4-title{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.section4-title-text1{
+    font-size: 7vh;
+    font-family: "Russo One", sans-serif;
+    color: white;
+    text-shadow: 0.3vh 0.3vh 0.3vh black;
+}
+.section4-title-text12{
+    color: #FF0000;
+}
+.section4-map{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map-section4{
+    width: 50vw;
+    height: 50vh;
+}
+
+
+
+.section5{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+.section5-left{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section5-right{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.section5-left-text{
+    font-size: 3vh;
+    font-family: "Russo One", sans-serif;
+    color: white;
+    text-shadow: 0.3vh 0.3vh 0.3vh black;
+    margin-left: 7vw;
+    padding-top: 2vh;
+}
+.text1-section5-left{
+    color: #FF0000;
+}
+.text2-section5-left{
+    font-family: "Inter", sans-serif;
+}
+.block-section5{
+    width: 65%;
+    height: 45vh;
+    background-color: white;
+    border-radius: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.input1-section5{
+    width: 85%;
+    height: 10%;
+    font-size: 3vh;
+    margin-left: 2vw;
+    margin-top: 8vh;
+    border: none;
+    border-bottom: 0.25vh solid black;
+}
+.input2-section5{
+    width: 85%;
+    height: 10%;
+    font-size: 3vh;
+    margin-left: 2vw;
+    margin-top: 3vh;
+    border: none;
+    border-bottom: 0.25vh solid black;
+}
+.input3-section5{
+    width: 85%;
+    height: 10%;
+    font-size: 3vh;
+    margin-left: 2vw;
+    margin-top: 3vh;
+    border: none;
+    border-bottom: 0.25vh solid black;
+}
+.input4-section5{
+    width: 2vw;
+    height: 3vh;
+    font-size: 3vh;
+    margin-left: 1.8vw;
+    margin-top: 3vh;
+}
+.div2-input4-section5{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+}
+.text1-input4-section5{
+    margin-top: 3.2vh;
+    font-size: 2vh;
+    font-family: "Inter", sans-serif;
+    color: black;
+}
+.input5-section5-submit1{
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    background-color: #6B000E;
+    border-radius: 0.8vh;
+    font-size: 3vh;
+    font-family: "Russo One", sans-serif;
+    color: white;
+    box-shadow: 0.5vh 0.5vh 0.5vh black;
+    transition: 0.3s;
+}
+.input5-section5-submit1:hover{
+    background-color: #B50000;
+    box-shadow: 0.5vh 0.5vh 0.5vh black;
+    transition: 0.3s;
+}
+.div3-input5-section5-submit1{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    background-color: #200307;
+    justify-content: space-around;
+}
+.footer-div1{
+    width: 11vw;
+    height: 100%;
+    display: flex;
+}
+.logo1-footer{
+    width: 100%;
+    height: 100%;
+}
+.footer-div2{
+    width: 23vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-a1{
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 3vh;
+    color: white;
+    transition: 0.3s;
+}
+.footer-a1:hover{
+    color: #FF0000;
+    transition: 0.3s;
+}
+.footer-div3{
+    width: 18vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sn-logo1{
+    width: 3.5vw;
+    height: 7vh;
+}
+.footer-div4{
+    width: 11vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text1-footer-div4{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 3vh;
+    color: white;
+    line-height: 5vh;
+}
+.footer-div5{
+    width: 31vw;
+    height: 100%;
+}
+.footer-div51{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.text1-footer-div5{
+    font-family: "Inter", sans-serif;
+    font-size: 3vh;
+    color: white;
+}
+.footer-div52{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.text1-footer-div52{
+    font-family: "Inter", sans-serif;
+    font-size: 3vh;
+    color: white;
+    transition: 0.2s;
+}
+.text1-footer-div52:hover{
+    color: #FF0000;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+
+
+/*iPhone 12 Pro*/
+@media screen and (min-width: 389px) and (max-width: 391px) and (min-height: 843px) and (max-height: 845px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: #6B000E;
+    }
+    main{
+        width: 100%;
+        height: 100vh;
+        background-image: url(/main/images/fon1.png);
+        background-repeat: no-repeat;
+        background-size: 400%;
+        background-position: -110vh 10vh;
+    }
+    header{
+        width: 100%;
+        height: 10vh;
+        background-color: #1F0307;
+        box-shadow: 0vh 1vh 1vh #1F0307;
+        display: flex;
+        justify-content: space-around;
+    }
+    .header11{
+        width: 18%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo1{
+        height: 75%;
+        margin-top: 1.3vh;
+    }
+    .header12{
+        width: 55%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 0;
+    }
+    .head-button1{
+        width: 19vw;
+        height: 5vh;
+        border: none;
+        background-color: #430710;
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 2vh;
+        border-radius: 0.5vh;
+        transition: 0.3s;
+    }
+    .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+    
+      .head-button1-content {
+        display: none;
+        position: absolute;
+        left: 30vw;
+        top: 8vh;
+        width: 15vw;
+        height: 81.5vh;
+        background-color: #f9f9f9;
+        box-shadow: 0vh 0.5vh 2vh 1vh black;
+        border-radius: 1vh;
+        z-index: 1;
+      }
+      
+      .head-button1-content a {
+        float: none;
+        color: black;
+        padding: 1.5vh 1.5vw;
+        text-decoration: none;
+        display: none;
+        text-align: left;
+      }
+    
+    .btn-content-link1{
+        font-family: "Roboto Mono", monospace;
+        font-size: 2vh;
+        font-weight: 700;
+        display: none;
+    }
+      
+      .head-button1-content a:hover {
+        background-color: #ddd;
+        border-radius: 1vh;
+        color: #FF0000;
+      }
+      
+      .dropdown:hover .head-button1-content {
+        display: none;
+      }
+    
+    
+    .head-button1:hover{
+        background-color: #BA0018;
+        transition: 0.3s;
+        box-shadow: 0vh 0.5vh 2vh 1vh black;
+        border-radius: 1vh;
+    }
+    .head-button2{
+        width: 19vw;
+        height: 5vh;
+        border: none;
+        background-color: #430710;
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 1.5vh;
+        border-radius: 0.5vh;
+    }
+    .head-button2:hover{
+        background-color: #BA0018;
+        transition: 0.3s;
+    }
+    .head-button3{
+        width: 14vw;
+        height: 5vh;
+        border: none;
+        background-color: #430710;
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 1.8vh;
+        border-radius: 0.5vh;
+    }
+    .head-button3:hover{
+        background-color: #BA0018;
+        transition: 0.3s;
+    }
+    .header13{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        text-align: left;
+        justify-content: right;
+        align-items: center;
+    }
+    .head-text1{
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 1.5vh;
+        font-weight: 400;
+    }
+    
+    
+    
+    .tittle-center-text{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .tittle-text1{
+        width: 100%;
+        height: 24vh;
+        font-size: 6vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        margin-top: 0;
+
+        text-shadow: 0.5vh 0.5vh 0.5vh black;  
+    }
+    .tittle-text2{
+        color: #B50000;
+    }
+    
+    
+    
+    .main-bottom{
+        width: 100%;
+        height: 30vh;
+        background-color: #212121;
+        box-shadow: 0vh -5vh 3vh #212121;
+        display: block;
+    }
+    .main-bottom-text1{
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 2.5vh;
+        font-weight: 900;
+        font-style: italic;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        padding-top: 5vh;
+        letter-spacing: -0.05vw;
+        text-shadow: 0.5vh 0.5vh 0.5vh black;
+    }
+    .main-bottom-text2{
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 2.5vh;
+        font-weight: 200;
+        margin-left: 3vw;
+        margin-top: 2vh;
+        text-shadow: 0.5vh 0.5vh 0.5vh black;
+    }
+    
+    
+    
+    .section1{
+        width: 100%;
+        height: 100vh;
+        background-color: #6B000E;
+    }
+    .div-text11{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .text11{
+        font-size: 2.5vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.5vh 0.5vh 0.1vh black;
+        text-align: center;
+    }
+    .div-text12{
+        width: 100%;
+        height: 13vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text12{
+        font-size: 2vh;
+        font-family: "Inter", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.1vh black;
+        text-align: center;
+        font-style: normal;
+        font-weight: 300;
+    }
+    .card-box1{
+        width: 100%;
+        height: 55vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .card-box-item1{
+        width: 40vw;
+        height: 26vh;
+        background-color: #FFFFFF;
+        border-radius: 2.5vh;
+        margin-right: 2vw;
+        margin-left: 2vw;
+    }
+    .card-box-div-image1{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-icon1{
+        width: 55%;
+        height: 85%;
+    }
+    .card-box-div-text1{
+        width: 100%;
+        height: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-text1{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size: 2.3vh;
+        font-family: "Inter", sans-serif;
+        color: black;
+    }
+    .div-button1{
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-aboutus{
+        width: 27vw;
+        height: 6vh;
+        border: none;
+        background-color: #860012;
+        border-radius: 0.8vh;
+        font-size: 3vh;
+        font-family: "Russo One", sans-serif;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        color: white;
+        transition: 0.3s;
+    }
+    .button-aboutus:hover{
+        background-color: #B50000;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+        width: 27vw;
+        height: 6vh;
+    }
+    
+    
+    
+    .section2{
+        width: 100%;
+        height: 100vh;
+        background-color: #6B000E;
+    }
+    .title-section2{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title-section2-text1{
+        font-size: 5vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.5vh 0.5vh 0.1vh black;
+    }
+    .uslugi{
+        width: 100%;
+        height: 73vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .usluga1{
+        width: 45vw;
+        height: 35vh;
+        background-color: #FFFFFF;
+        border-radius: 1.5vh;
+        margin-right: 1vw;
+    }
+    .img-usluga1{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .usluga-img1{
+        width: 85%;
+        height: 85%;
+    }
+    .text-usluga1{
+        width: 100%;
+        height: 50%;
+    }
+    .usluga-text1{
+        font-family: "Inter", sans-serif;
+        color: black;
+        font-size: 1.5vh;
+        font-weight: 600;
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+    }
+    .usluga-text2{
+        font-family: "Inter", sans-serif;
+        color: black;
+        font-size: 1.3vh;
+        margin-left: 1.5vw;
+        margin-right: 0vw;
+        margin-top: 2vh;
+    }
+    .section2-button1{
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .button-uslugi{
+        width: 45vw;
+        height: 6vh;
+        border: none;
+        background-color: #860012;
+        border-radius: 0.8vh;
+        font-size: 3vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+    }
+    .button-uslugi:hover{
+        background-color: #B50000;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+        width: 45vw;
+        height: 7vh;
+    }
+    
+    
+    
+    .section3{
+        width: 100%;
+        height: 100vh;
+        background-color: #6B000E;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-fon1{
+        width: 100%;
+        height: 70%;
+        background-image: url(/main/images/fon-mercedes.png);
+        background-size: 400%;
+        background-repeat: no-repeat;
+        background-position: -100vw 20vh;
+    }
+    .img-fon-title-text{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .img-fon-text1{
+        text-align: center;
+        font-size: 2.5vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+    }
+    .img-fon-text12{
+        color: #FF0000;
+    }
+    .img-fon-lil-text1{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    .img-fon-text2{
+        font-family: "Inter", sans-serif;
+        color: white;
+        font-size: 2.5vh;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+        text-align: center;
+        margin-top: 3vh;
+    }
+    
+    
+    
+    .section4{
+        width: 100%;
+        height: 100vh;
+        background-color: #6B000E;
+    }
+    .section4-title{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .section4-title-text1{
+        font-size: 4vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+    }
+    .section4-title-text12{
+        color: #FF0000;
+    }
+    .section4-map{
+        width: 100%;
+        height: 55vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .map-section4{
+        width: 90%;
+        height: 90%;
+    }
+    
+    
+    
+    .section5{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        background-color: #6B000E;
+        flex-wrap: wrap;
+    }
+    .section5-left{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .section5-right{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section5-left-text{
+        font-size: 2.4vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+    .text1-section5-left{
+        color: #FF0000;
+    }
+    .text2-section5-left{
+        font-family: "Inter", sans-serif;
+    }
+    .block-section5{
+        width: 90%;
+        height: 90%;
+        background-color: white;
+        border-radius: 3vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .input1-section5{
+        width: 90%;
+        height: 10%;
+        font-size: 3vh;
+        margin-left: 3vw;
+        margin-top: 8vh;
+        border: none;
+        border-bottom: 0.25vh solid black;
+    }
+    .input2-section5{
+        width: 90%;
+        height: 10%;
+        font-size: 3vh;
+        margin-left: 3vw;
+        margin-top: 3vh;
+        border: none;
+        border-bottom: 0.25vh solid black;
+    }
+    .input3-section5{
+        width: 90%;
+        height: 10%;
+        font-size: 3vh;
+        margin-left: 3vw;
+        margin-top: 3vh;
+        border: none;
+        border-bottom: 0.25vh solid black;
+    }
+    .input4-section5{
+        width: 15vw;
+        height: 3vh;
+        font-size: 3vh;
+        margin-left: 1.8vw;
+        margin-top: 3vh;
+    }
+    .div2-input4-section5{
+        width: 90%;
+        height: 6vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text1-input4-section5{
+        margin-top: 2vh;
+        margin-left: 3vw;
+        font-size: 2vh;
+        font-family: "Inter", sans-serif;
+        color: black;
+    }
+    .input5-section5-submit1{
+        width: 50%;
+        height: 50%;
+        border: none;
+        background-color: #6B000E;
+        border-radius: 0.8vh;
+        font-size: 3.5vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+    }
+    .input5-section5-submit1:hover{
+        background-color: #B50000;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+    }
+    .div3-input5-section5-submit1{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    footer{
+        width: 100%;
+        height: 18vh;
+        display: flex;
+        background-color: #200307;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer-div1{
+        width: 23vw;
+        height: 100%;
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        background-color: #00000000;
+    }
+    .logo1-footer{
+        width: 100%;
+        height: 100%;
+    }
+    .footer-div2{
+        width: 20vw;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .footer-a1{
+        text-decoration: none;
+        font-family: "Inter", sans-serif;
+        font-size: 2.5vh;
+        color: white;
+        transition: 0.3s;
+    }
+    .footer-a1:hover{
+        color: #FF0000;
+        transition: 0.3s;
+    }
+    .footer-div3{
+        width: 10vw;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .sn-logo1{
+        width: 8vw;
+        height: 5vh;
+    }
+    .footer-div4{
+        width: 11vw;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .text1-footer-div4{
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        font-size: 1.5vh;
+        color: white;
+        line-height: 2vh;
+    }
+    .footer-div5{
+        width: 31vw;
+        height: 100%;
+    }
+    .footer-div51{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .text1-footer-div5{
+        font-family: "Inter", sans-serif;
+        font-size: 2vh;
+        color: white;
+    }
+    .footer-div52{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .text1-footer-div52{
+        font-family: "Inter", sans-serif;
+        font-size: 1.3vh;
+        color: white;
+        transition: 0.2s;
+    }
+    .text1-footer-div52:hover{
+        color: #FF0000;
+        text-decoration: none;
+        transition: 0.2s;
+    }
+}
+
+
+
+/*Mobile M*/
+@media screen and (min-width: 375px) and (max-width: 424px) and (min-height: 768px) and (max-height: 769px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: #6B000E;
+    }
+    main{
+        width: 100%;
+        height: 100vh;
+        background-image: url(/main/images/fon1.png);
+        background-repeat: no-repeat;
+        background-size: 400%;
+        background-position: -110vh 10vh;
+    }
+    header{
+        width: 100%;
+        height: 10vh;
+        background-color: #1F0307;
+        box-shadow: 0vh 1vh 1vh #1F0307;
+        display: flex;
+        justify-content: space-around;
+    }
+    .header11{
+        width: 18%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo1{
+        height: 75%;
+        margin-top: 1.3vh;
+    }
+    .header12{
+        width: 55%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 0;
+    }
+    .head-button1{
+        width: 19vw;
+        height: 5vh;
+        border: none;
+        background-color: #430710;
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 2.5vh;
+        border-radius: 0.5vh;
+        transition: 0.3s;
+    }
+    .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+    
+      .head-button1-content {
+        display: none;
+        position: absolute;
+        left: 30vw;
+        top: 8vh;
+        width: 15vw;
+        height: 81.5vh;
+        background-color: #f9f9f9;
+        box-shadow: 0vh 0.5vh 2vh 1vh black;
+        border-radius: 1vh;
+        z-index: 1;
+      }
+      
+      .head-button1-content a {
+        float: none;
+        color: black;
+        padding: 1.5vh 1.5vw;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+    
+    .btn-content-link1{
+        font-family: "Roboto Mono", monospace;
+        font-size: 2vh;
+        font-weight: 700;
+    }
+      
+      .head-button1-content a:hover {
+        background-color: #ddd;
+        border-radius: 1vh;
+        color: #FF0000;
+      }
+      
+      .dropdown:hover .head-button1-content {
+        display: none;
+      }
+    
+    
+    .head-button1:hover{
+        background-color: #BA0018;
+        transition: 0.3s;
+        box-shadow: 0vh 0.5vh 2vh 1vh black;
+        border-radius: 1vh;
+    }
+    .head-button2{
+        width: 19vw;
+        height: 5vh;
+        border: none;
+        background-color: #430710;
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 2vh;
+        border-radius: 0.5vh;
+    }
+    .head-button2:hover{
+        background-color: #BA0018;
+        transition: 0.3s;
+    }
+    .head-button3{
+        width: 14vw;
+        height: 5vh;
+        border: none;
+        background-color: #430710;
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 2.1vh;
+        border-radius: 0.5vh;
+    }
+    .head-button3:hover{
+        background-color: #BA0018;
+        transition: 0.3s;
+    }
+    .header13{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        text-align: left;
+        justify-content: right;
+        align-items: center;
+    }
+    .head-text1{
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 1.5vh;
+        font-weight: 400;
+    }
+    
+    
+    
+    .tittle-center-text{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .tittle-text1{
+        width: 100%;
+        height: 24vh;
+        font-size: 8vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        margin-top: 0;
+
+        text-shadow: 0.5vh 0.5vh 0.5vh black;  
+    }
+    .tittle-text2{
+        color: #B50000;
+    }
+    
+    
+    
+    .main-bottom{
+        width: 100%;
+        height: 30vh;
+        background-color: #212121;
+        box-shadow: 0vh -5vh 3vh #212121;
+        display: block;
+    }
+    .main-bottom-text1{
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 2.5vh;
+        font-weight: 900;
+        font-style: italic;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        padding-top: 5vh;
+        letter-spacing: -0.05vw;
+        text-shadow: 0.5vh 0.5vh 0.5vh black;
+    }
+    .main-bottom-text2{
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 2.5vh;
+        font-weight: 200;
+        margin-left: 3vw;
+        margin-top: 2vh;
+        text-shadow: 0.5vh 0.5vh 0.5vh black;
+    }
+    
+    
+    
+    .section1{
+        width: 100%;
+        height: 100vh;
+        background-color: #6B000E;
+    }
+    .div-text11{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .text11{
+        font-size: 3.3vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.5vh 0.5vh 0.1vh black;
+        text-align: center;
+    }
+    .div-text12{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text12{
+        font-size: 2.3vh;
+        font-family: "Inter", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.1vh black;
+        text-align: center;
+        font-style: normal;
+        font-weight: 300;
+    }
+    .card-box1{
+        width: 100%;
+        height: 55vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .card-box-item1{
+        width: 40vw;
+        height: 26vh;
+        background-color: #FFFFFF;
+        border-radius: 2.5vh;
+        margin-right: 2vw;
+        margin-left: 2vw;
+    }
+    .card-box-div-image1{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-icon1{
+        width: 55%;
+        height: 85%;
+    }
+    .card-box-div-text1{
+        width: 100%;
+        height: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-text1{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size: 2.5vh;
+        font-family: "Inter", sans-serif;
+        color: black;
+    }
+    .div-button1{
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-aboutus{
+        width: 27vw;
+        height: 6vh;
+        border: none;
+        background-color: #860012;
+        border-radius: 0.8vh;
+        font-size: 3.5vh;
+        font-family: "Russo One", sans-serif;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        color: white;
+        transition: 0.3s;
+    }
+    .button-aboutus:hover{
+        background-color: #B50000;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+        width: 27vw;
+        height: 6vh;
+    }
+    
+    
+    
+    .section2{
+        width: 100%;
+        height: 100%;
+        background-color: #6B000E;
+    }
+    .title-section2{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title-section2-text1{
+        font-size: 5vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.5vh 0.5vh 0.1vh black;
+    }
+    .uslugi{
+        width: 100%;
+        height: 73vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .usluga1{
+        width: 45vw;
+        height: 35vh;
+        background-color: #FFFFFF;
+        border-radius: 1.5vh;
+        margin-right: 1vw;
+    }
+    .img-usluga1{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .usluga-img1{
+        width: 85%;
+        height: 85%;
+    }
+    .text-usluga1{
+        width: 100%;
+        height: 50%;
+    }
+    .usluga-text1{
+        font-family: "Inter", sans-serif;
+        color: black;
+        font-size: 1.8vh;
+        font-weight: 600;
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+    }
+    .usluga-text2{
+        font-family: "Inter", sans-serif;
+        color: black;
+        font-size: 1.5vh;
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+        margin-top: 2vh;
+    }
+    .section2-button1{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-uslugi{
+        width: 125%;
+        height: 7vh;
+        border: none;
+        background-color: #860012;
+        border-radius: 0.8vh;
+        font-size: 3.5vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+    }
+    .button-uslugi:hover{
+        background-color: #B50000;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+        width: 45vw;
+        height: 7vh;
+    }
+    
+    
+    
+    .section3{
+        width: 100%;
+        height: 100vh;
+        background-color: #6B000E;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-fon1{
+        width: 100%;
+        height: 70%;
+        background-image: url(/main/images/fon-mercedes.png);
+        background-size: 400%;
+        background-repeat: no-repeat;
+        background-position: -100vw 20vh;
+    }
+    .img-fon-title-text{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .img-fon-text1{
+        text-align: center;
+        font-size: 105%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+    }
+    .img-fon-text12{
+        color: #FF0000;
+    }
+    .img-fon-lil-text1{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    .img-fon-text2{
+        font-family: "Inter", sans-serif;
+        color: white;
+        font-size: 125%;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+        text-align: center;
+        margin-top: 3vh;
+    }
+    
+    
+    
+    .section4{
+        width: 100%;
+        height: 100vh;
+        background-color: #6B000E;
+    }
+    .section4-title{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .section4-title-text1{
+        font-size: 200%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+    }
+    .section4-title-text12{
+        color: #FF0000;
+    }
+    .section4-map{
+        width: 100%;
+        height: 65%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .map-section4{
+        width: 90%;
+        height: 90%;
+    }
+    
+    
+    
+    .section5{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background-color: #6B000E;
+        flex-wrap: wrap;
+    }
+    .section5-left{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .section5-right{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section5-left-text{
+        font-size: 110%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+    .text1-section5-left{
+        color: #FF0000;
+    }
+    .text2-section5-left{
+        font-family: "Inter", sans-serif;
+    }
+    .block-section5{
+        width: 90%;
+        height: 90%;
+        background-color: white;
+        border-radius: 3vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .input1-section5{
+        width: 90%;
+        height: 10%;
+        font-size: 150%;
+        margin-left: 3vw;
+        margin-top: 8vh;
+        border: none;
+        border-bottom: 0.25vh solid black;
+    }
+    .input2-section5{
+        width: 90%;
+        height: 10%;
+        font-size: 150%;
+        margin-left: 3vw;
+        margin-top: 3vh;
+        border: none;
+        border-bottom: 0.25vh solid black;
+    }
+    .input3-section5{
+        width: 90%;
+        height: 10%;
+        font-size: 150%;
+        margin-left: 3vw;
+        margin-top: 3vh;
+        border: none;
+        border-bottom: 0.25vh solid black;
+    }
+    .input4-section5{
+        width: 15vw;
+        height: 3vh;
+        font-size: 150%;
+        margin-left: 1.8vw;
+        margin-top: 3vh;
+    }
+    .div2-input4-section5{
+        width: 90%;
+        height: 6vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text1-input4-section5{
+        margin-top: 2vh;
+        margin-left: 3vw;
+        font-size: 2.5vh;
+        font-family: "Inter", sans-serif;
+        color: black;
+    }
+    .input5-section5-submit1{
+        width: 50%;
+        height: 50%;
+        border: none;
+        background-color: #6B000E;
+        border-radius: 0.8vh;
+        font-size: 150%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+    }
+    .input5-section5-submit1:hover{
+        background-color: #B50000;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+    }
+    .div3-input5-section5-submit1{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    footer{
+        width: 100%;
+        height: 18%;
+        display: flex;
+        background-color: #200307;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer-div1{
+        width: 20%;
+        height: 100%;
+        background-color: #00000000;
+        display: flex;
+        align-items: center;
+    }
+    .logo1-footer{
+        width: 100%;
+        height: 100%;
+    }
+    .footer-div2{
+        width: 25%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .footer-a1{
+        text-decoration: none;
+        font-family: "Inter", sans-serif;
+        font-size: 125%;
+        color: white;
+        transition: 0.3s;
+    }
+    .footer-a1:hover{
+        color: #FF0000;
+        transition: 0.3s;
+    }
+    .footer-div3{
+        width: 10%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .sn-logo1{
+        width: 65%;
+        height: 30%;
+    }
+    .footer-div4{
+        width: 13%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .text1-footer-div4{
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        font-size: 70%;
+        color: white;
+        line-height: 150%;
+    }
+    .footer-div5{
+        width: 30%;
+        height: 100%;
+    }
+    .footer-div51{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: start;
+    }
+    .text1-footer-div5{
+        font-family: "Inter", sans-serif;
+        font-size: 70%;
+        color: white;
+    }
+    .footer-div52{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .text1-footer-div52{
+        font-family: "Inter", sans-serif;
+        font-size: 50%;
+        color: white;
+        transition: 0.2s;
+    }
+    .text1-footer-div52:hover{
+        color: #FF0000;
+        text-decoration: none;
+        transition: 0.2s;
+    }
+}
+
+
+
+/*Mobile S*/
+@media screen and (min-width: 320px) and (max-width: 374px) and (min-height: 768px) and (max-height: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: #6B000E;
+    }
+    main{
+        width: 105%;
+        height: 105vh;
+        background-image: url(/main/images/fon1.png);
+        background-repeat: no-repeat;
+        background-size: 600%;
+        background-position: -110vW 15vh;
+    }
+    header{
+        width: 100%;
+        height: 15vh;
+        background-color: #1F0307;
+        box-shadow: 0vh 1vh 1vh #1F0307;
+        display: flex;
+        justify-content: space-around;
+    }
+    .header11{
+        width: 18%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo1{
+        height: 50%;
+        margin-top: 45%;
+    }
+    .header12{
+        width: 55%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 0;
+    }
+    .head-button1{
+        width: 20vw;
+        height: 5vh;
+        border: none;
+        background-color: #430710;
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 95%;
+        border-radius: 0.5vh;
+        transition: 0.3s;
+    }
+    .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+    
+      .head-button1-content {
+        display: none;
+        position: absolute;
+        left: 30vw;
+        top: 8vh;
+        width: 15vw;
+        height: 81.5vh;
+        background-color: #f9f9f9;
+        box-shadow: 0vh 0.5vh 2vh 1vh black;
+        border-radius: 1vh;
+        z-index: 1;
+      }
+      
+      .head-button1-content a {
+        float: none;
+        color: black;
+        padding: 1.5vh 1.5vw;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+    
+    .btn-content-link1{
+        font-family: "Roboto Mono", monospace;
+        font-size: 2vh;
+        font-weight: 700;
+    }
+      
+      .head-button1-content a:hover {
+        background-color: #ddd;
+        border-radius: 1vh;
+        color: #FF0000;
+      }
+      
+      .dropdown:hover .head-button1-content {
+        display: none;
+      }
+    
+    
+    .head-button1:hover{
+        background-color: #BA0018;
+        transition: 0.3s;
+        box-shadow: 0vh 0.5vh 2vh 1vh black;
+        border-radius: 1vh;
+    }
+    .head-button2{
+        width: 19vw;
+        height: 5vh;
+        border: none;
+        background-color: #430710;
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 65%;
+        border-radius: 0.5vh;
+    }
+    .head-button2:hover{
+        background-color: #BA0018;
+        transition: 0.3s;
+    }
+    .head-button3{
+        width: 14vw;
+        height: 5vh;
+        border: none;
+        background-color: #430710;
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 75%;
+        border-radius: 0.5vh;
+    }
+    .head-button3:hover{
+        background-color: #BA0018;
+        transition: 0.3s;
+    }
+    .header13{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        text-align: left;
+        justify-content: right;
+        align-items: center;
+    }
+    .head-text1{
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 60%;
+        font-weight: 400;
+    }
+    
+    
+    
+    .tittle-center-text{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .tittle-text1{
+        width: 100%;
+        height: 24vh;
+        font-size: 280%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        margin-top: 0;
+
+        text-shadow: 0.5vh 0.5vh 0.5vh black;  
+    }
+    .tittle-text2{
+        color: #B50000;
+    }
+    
+    
+    
+    .main-bottom{
+        width: 100%;
+        height: 30%;
+        background-color: #212121;
+        box-shadow: 0vh -5vh 3vh #212121;
+        display: block;
+    }
+    .main-bottom-text1{
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 2.5vh;
+        font-weight: 900;
+        font-style: italic;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        padding-top: 5vh;
+        letter-spacing: -0.05vw;
+        text-shadow: 0.5vh 0.5vh 0.5vh black;
+    }
+    .main-bottom-text2{
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 2.5vh;
+        font-weight: 200;
+        margin-left: 3vw;
+        margin-top: 2vh;
+        text-shadow: 0.5vh 0.5vh 0.5vh black;
+    }
+    
+    
+    
+    .section1{
+        width: 105%;
+        height: 100vh;
+        background-color: #6B000E;
+    }
+    .div-text11{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text11{
+        font-size: 120%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.5vh 0.5vh 0.1vh black;
+        text-align: center;
+    }
+    .div-text12{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text12{
+        font-size: 90%;
+        font-family: "Inter", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.1vh black;
+        text-align: center;
+        font-style: normal;
+        font-weight: 300;
+    }
+    .card-box1{
+        width: 100%;
+        height: 55vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .card-box-item1{
+        width: 40%;
+        height: 45%;
+        background-color: #FFFFFF;
+        border-radius: 2.5vh;
+        margin-right: 2vw;
+        margin-left: 2vw;
+    }
+    .card-box-div-image1{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-icon1{
+        width: 55%;
+        height: 85%;
+    }
+    .card-box-div-text1{
+        width: 100%;
+        height: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-text1{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size: 100%;
+        font-family: "Inter", sans-serif;
+        color: black;
+    }
+    .div-button1{
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-aboutus{
+        width: 30vw;
+        height: 5vh;
+        border: none;
+        background-color: #860012;
+        border-radius: 0.8vh;
+        font-size: 130%;
+        font-family: "Russo One", sans-serif;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        color: white;
+        transition: 0.3s;
+    }
+    .button-aboutus:hover{
+        background-color: #B50000;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+        width: 27vw;
+        height: 6vh;
+    }
+    
+    
+    
+    .section2{
+        width: 105%;
+        height: 100vh;
+        background-color: #6B000E;
+    }
+    .title-section2{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title-section2-text1{
+        font-size: 200%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.5vh 0.5vh 0.1vh black;
+    }
+    .uslugi{
+        width: 100%;
+        height: 73vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .usluga1{
+        width: 45%;
+        height: 48%;
+        background-color: #FFFFFF;
+        border-radius: 1.5vh;
+        margin-right: 1vw;
+    }
+    .img-usluga1{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .usluga-img1{
+        width: 90%;
+        height: 85%;
+    }
+    .text-usluga1{
+        width: 100%;
+        height: 50%;
+    }
+    .usluga-text1{
+        font-family: "Inter", sans-serif;
+        color: black;
+        font-size: 90%;
+        font-weight: 600;
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+    }
+    .usluga-text2{
+        font-family: "Inter", sans-serif;
+        color: black;
+        font-size: 60%;
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+        margin-top: 1vh;
+    }
+    .section2-button1{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-uslugi{
+        width: 125%;
+        height: 7vh;
+        border: none;
+        background-color: #860012;
+        border-radius: 0.8vh;
+        font-size: 150%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+    }
+    .button-uslugi:hover{
+        background-color: #B50000;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+        width: 45vw;
+        height: 7vh;
+    }
+    
+    
+    
+    .section3{
+        width: 105%;
+        height: 100vh;
+        background-color: #6B000E;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-fon1{
+        width: 100%;
+        height: 70%;
+        background-image: url(/main/images/fon-mercedes.png);
+        background-size: 400%;
+        background-repeat: no-repeat;
+        background-position: -100vw 20vh;
+    }
+    .img-fon-title-text{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .img-fon-text1{
+        text-align: center;
+        font-size: 105%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+    }
+    .img-fon-text12{
+        color: #FF0000;
+    }
+    .img-fon-lil-text1{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    .img-fon-text2{
+        font-family: "Inter", sans-serif;
+        color: white;
+        font-size: 125%;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+        text-align: center;
+        margin-top: 3vh;
+    }
+    
+    
+    
+    .section4{
+        width: 105%;
+        height: 100vh;
+        background-color: #6B000E;
+    }
+    .section4-title{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .section4-title-text1{
+        font-size: 200%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+    }
+    .section4-title-text12{
+        color: #FF0000;
+    }
+    .section4-map{
+        width: 100%;
+        height: 65%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .map-section4{
+        width: 90%;
+        height: 90%;
+    }
+    
+    
+    
+    .section5{
+        width: 105%;
+        height: 100%;
+        display: flex;
+        background-color: #6B000E;
+        flex-wrap: wrap;
+    }
+    .section5-left{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .section5-right{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section5-left-text{
+        font-size: 110%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+    .text1-section5-left{
+        color: #FF0000;
+    }
+    .text2-section5-left{
+        font-family: "Inter", sans-serif;
+    }
+    .block-section5{
+        width: 90%;
+        height: 90%;
+        background-color: white;
+        border-radius: 3vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .input1-section5{
+        width: 90%;
+        height: 10%;
+        font-size: 150%;
+        margin-left: 3vw;
+        margin-top: 8vh;
+        border: none;
+        border-bottom: 0.25vh solid black;
+    }
+    .input2-section5{
+        width: 90%;
+        height: 10%;
+        font-size: 150%;
+        margin-left: 3vw;
+        margin-top: 3vh;
+        border: none;
+        border-bottom: 0.25vh solid black;
+    }
+    .input3-section5{
+        width: 90%;
+        height: 10%;
+        font-size: 150%;
+        margin-left: 3vw;
+        margin-top: 3vh;
+        border: none;
+        border-bottom: 0.25vh solid black;
+    }
+    .input4-section5{
+        width: 15vw;
+        height: 3vh;
+        font-size: 150%;
+        margin-left: 1.8vw;
+        margin-top: 3vh;
+    }
+    .div2-input4-section5{
+        width: 90%;
+        height: 6vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text1-input4-section5{
+        margin-top: 2vh;
+        margin-left: 3vw;
+        font-size: 2vh;
+        font-family: "Inter", sans-serif;
+        color: black;
+    }
+    .input5-section5-submit1{
+        width: 50%;
+        height: 50%;
+        border: none;
+        background-color: #6B000E;
+        border-radius: 0.8vh;
+        font-size: 150%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+    }
+    .input5-section5-submit1:hover{
+        background-color: #B50000;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+    }
+    .div3-input5-section5-submit1{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    footer{
+        width: 105%;
+        height: 18%;
+        display: flex;
+        background-color: #200307;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer-div1{
+        width: 20%;
+        height: 100%;
+        background-color: #00000000;
+        display: flex;
+        align-items: center;
+    }
+    .logo1-footer{
+        width: 100%;
+        height: 100%;
+    }
+    .footer-div2{
+        width: 25%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .footer-a1{
+        text-decoration: none;
+        font-family: "Inter", sans-serif;
+        font-size: 90%;
+        color: white;
+        transition: 0.3s;
+    }
+    .footer-a1:hover{
+        color: #FF0000;
+        transition: 0.3s;
+    }
+    .footer-div3{
+        width: 10%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .sn-logo1{
+        width: 65%;
+        height: 30%;
+    }
+    .footer-div4{
+        width: 13%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .text1-footer-div4{
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        font-size: 70%;
+        color: white;
+        line-height: 150%;
+    }
+    .footer-div5{
+        width: 30%;
+        height: 100%;
+    }
+    .footer-div51{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: start;
+    }
+    .text1-footer-div5{
+        font-family: "Inter", sans-serif;
+        font-size: 70%;
+        color: white;
+    }
+    .footer-div52{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .text1-footer-div52{
+        font-family: "Inter", sans-serif;
+        font-size: 50%;
+        color: white;
+        transition: 0.2s;
+    }
+    .text1-footer-div52:hover{
+        color: #FF0000;
+        text-decoration: none;
+        transition: 0.2s;
+    }
+}
+
+
+
+/*Tablet iPad Pro*/
+@media screen and (min-width: 1366px) and (max-width: 1366px) and (min-height: 1024px) and (max-height: 1024px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: #6B000E;
+    }
+    main{
+        width: 100%;
+        height: 100vh;
+        background-image: url(/main/images/fon1.png);
+        background-repeat: no-repeat;
+        background-size: 200%;
+        background-position: -50vw 8vh;
+    }
+    header{
+        width: 100%;
+        height: 8vh;
+        background-color: #1F0307;
+        box-shadow: 0vh 1vh 1vh #1F0307;
+        display: flex;
+        justify-content: space-around;
+    }
+    .header11{
+        width: 23%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo1{
+        height: 100%;
+    }
+    .header12{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 0;
+    }
+    .head-button1{
+        width: 13vw;
+        height: 5vh;
+        border: none;
+        background-color: #430710;
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 120%;
+        border-radius: 0.5vh;
+        transition: 0.3s;
+    }
+    .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+    
+      .head-button1-content {
+        display: none;
+        position: absolute;
+        left: 30vw;
+        top: 8vh;
+        width: 15vw;
+        height: 81.5vh;
+        background-color: #f9f9f9;
+        box-shadow: 0vh 0.5vh 2vh 1vh black;
+        border-radius: 1vh;
+        z-index: 1;
+      }
+      
+      .head-button1-content a {
+        float: none;
+        color: black;
+        padding: 1.5vh 1.5vw;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+    
+    .btn-content-link1{
+        font-family: "Roboto Mono", monospace;
+        font-size: 2vh;
+        font-weight: 700;
+    }
+      
+      .head-button1-content a:hover {
+        background-color: #ddd;
+        border-radius: 1vh;
+        color: #FF0000;
+      }
+      
+      .dropdown:hover .head-button1-content {
+        display: none;
+      }
+    
+    
+    .head-button1:hover{
+        background-color: #BA0018;
+        transition: 0.3s;
+        box-shadow: 0vh 0.5vh 2vh 1vh black;
+        border-radius: 1vh;
+    }
+    .head-button2{
+        width: 14vw;
+        height: 5vh;
+        border: none;
+        background-color: #430710;
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 120%;
+        border-radius: 0.5vh;
+    }
+    .head-button2:hover{
+        background-color: #BA0018;
+        transition: 0.3s;
+    }
+    .head-button3{
+        width: 12vw;
+        height: 5vh;
+        border: none;
+        background-color: #430710;
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 130%;
+        border-radius: 0.5vh;
+    }
+    .head-button3:hover{
+        background-color: #BA0018;
+        transition: 0.3s;
+    }
+    .header13{
+        width: 25%;
+        height: 100%;
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+    }
+    .head-text1{
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 90%;
+        font-weight: 400;
+    }
+    
+    
+    
+    .tittle-center-text{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .tittle-text1{
+        width: 100%;
+        height: 24vh;
+        font-size: 600%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        margin-top: 0;
+
+        text-shadow: 0.5vh 0.5vh 0.5vh black;  
+    }
+    .tittle-text2{
+        color: #B50000;
+    }
+    
+    
+    
+    .main-bottom{
+        width: 100%;
+        height: 32%;
+        background-color: #212121;
+        box-shadow: 0vh -5vh 3vh #212121;
+        display: block;
+    }
+    .main-bottom-text1{
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 190%;
+        font-weight: 900;
+        font-style: italic;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        padding-top: 5vh;
+        letter-spacing: -0.05vw;
+        text-shadow: 0.5vh 0.5vh 0.5vh black;
+    }
+    .main-bottom-text2{
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 190%;
+        font-weight: 200;
+        margin-left: 3vw;
+        margin-top: 2vh;
+        text-shadow: 0.5vh 0.5vh 0.5vh black;
+    }
+    
+    
+    
+    .section1{
+        width: 100%;
+        height: 120vh;
+        background-color: #6B000E;
+    }
+    .div-text11{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .text11{
+        font-size: 250%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.5vh 0.5vh 0.1vh black;
+        text-align: center;
+    }
+    .div-text12{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text12{
+        font-size: 120%;
+        font-family: "Inter", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.1vh black;
+        text-align: center;
+        font-style: normal;
+        font-weight: 300;
+    }
+    .card-box1{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .card-box-item1{
+        width: 30%;
+        height: 45%;
+        background-color: #FFFFFF;
+        border-radius: 2.5vh;
+        margin-right: 2vw;
+        margin-left: 2vw;
+    }
+    .card-box-div-image1{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-icon1{
+        width: 40%;
+        height: 85%;
+    }
+    .card-box-div-text1{
+        width: 100%;
+        height: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-text1{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size: 140%;
+        font-family: "Inter", sans-serif;
+        color: black;
+    }
+    .div-button1{
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-aboutus{
+        width: 30vw;
+        height: 5vh;
+        border: none;
+        background-color: #860012;
+        border-radius: 0.8vh;
+        font-size: 130%;
+        font-family: "Russo One", sans-serif;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        color: white;
+        transition: 0.3s;
+    }
+    .button-aboutus:hover{
+        background-color: #B50000;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+        width: 27vw;
+        height: 6vh;
+    }
+    
+    
+    
+    .section2{
+        width: 100%;
+        height: 100vh;
+        background-color: #6B000E;
+    }
+    .title-section2{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title-section2-text1{
+        font-size: 330%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.5vh 0.5vh 0.1vh black;
+    }
+    .uslugi{
+        width: 100%;
+        height: 73vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .usluga1{
+        width: 35%;
+        height: 48%;
+        background-color: #FFFFFF;
+        border-radius: 1.5vh;
+        margin-right: 1vw;
+    }
+    .img-usluga1{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .usluga-img1{
+        width: 90%;
+        height: 90%;
+    }
+    .text-usluga1{
+        width: 80%;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .usluga-text1{
+        font-family: "Inter", sans-serif;
+        color: black;
+        font-size: 100%;
+        font-weight: 600;
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+    }
+    .usluga-text2{
+        font-family: "Inter", sans-serif;
+        color: black;
+        font-size: 70%;
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+        margin-top: 1vh;
+    }
+    .section2-button1{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-uslugi{
+        width: 125%;
+        height: 7vh;
+        border: none;
+        background-color: #860012;
+        border-radius: 0.8vh;
+        font-size: 150%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+    }
+    .button-uslugi:hover{
+        background-color: #B50000;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+        width: 45vw;
+        height: 7vh;
+    }
+    
+    
+    
+    .section3{
+        width: 100%;
+        height: 100vh;
+        background-color: #6B000E;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-fon1{
+        width: 100%;
+        height: 70%;
+        background-image: url(/main/images/fon-mercedes.png);
+        background-size: 150%;
+        background-repeat: no-repeat;
+        background-position: -50vw 20vh;
+    }
+    .img-fon-title-text{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .img-fon-text1{
+        text-align: center;
+        font-size: 200%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+    }
+    .img-fon-text12{
+        color: #FF0000;
+        font-size: 100%;
+    }
+    .img-fon-lil-text1{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    .img-fon-text2{
+        font-family: "Inter", sans-serif;
+        color: white;
+        font-size: 180%;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+        text-align: center;
+        margin-top: 3vh;
+    }
+    
+    
+    
+    .section4{
+        width: 100%;
+        height: 100vh;
+        background-color: #6B000E;
+    }
+    .section4-title{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .section4-title-text1{
+        font-size: 200%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+    }
+    .section4-title-text12{
+        color: #FF0000;
+    }
+    .section4-map{
+        width: 100%;
+        height: 65%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .map-section4{
+        width: 90%;
+        height: 90%;
+    }
+    
+    
+    
+    .section5{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background-color: #6B000E;
+        flex-wrap: wrap;
+    }
+    .section5-left{
+        width: 50%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .section5-right{
+        width: 50%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section5-left-text{
+        font-size: 130%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+    .text1-section5-left{
+        color: #FF0000;
+    }
+    .text2-section5-left{
+        font-family: "Inter", sans-serif;
+    }
+    .block-section5{
+        width: 90%;
+        height: 90%;
+        background-color: white;
+        border-radius: 3vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .input1-section5{
+        width: 90%;
+        height: 10%;
+        font-size: 150%;
+        margin-left: 3vw;
+        margin-top: 8vh;
+        border: none;
+        border-bottom: 0.25vh solid black;
+    }
+    .input2-section5{
+        width: 90%;
+        height: 10%;
+        font-size: 150%;
+        margin-left: 3vw;
+        margin-top: 3vh;
+        border: none;
+        border-bottom: 0.25vh solid black;
+    }
+    .input3-section5{
+        width: 90%;
+        height: 10%;
+        font-size: 150%;
+        margin-left: 3vw;
+        margin-top: 3vh;
+        border: none;
+        border-bottom: 0.25vh solid black;
+    }
+    .input4-section5{
+        width: 15vw;
+        height: 3vh;
+        font-size: 150%;
+        margin-left: 1.8vw;
+        margin-top: 3vh;
+    }
+    .div2-input4-section5{
+        width: 90%;
+        height: 6vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text1-input4-section5{
+        margin-top: 2vh;
+        margin-left: 3vw;
+        font-size: 2vh;
+        font-family: "Inter", sans-serif;
+        color: black;
+    }
+    .input5-section5-submit1{
+        width: 50%;
+        height: 50%;
+        border: none;
+        background-color: #6B000E;
+        border-radius: 0.8vh;
+        font-size: 150%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+    }
+    .input5-section5-submit1:hover{
+        background-color: #B50000;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+    }
+    .div3-input5-section5-submit1{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    footer{
+        width: 100%;
+        height: 18%;
+        display: flex;
+        background-color: #200307;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer-div1{
+        width: 13%;
+        height: 100%;
+        background-color: #00000000;
+        display: flex;
+        align-items: center;
+    }
+    .logo1-footer{
+        width: 100%;
+        height: 100%;
+    }
+    .footer-div2{
+        width: 25%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .footer-a1{
+        text-decoration: none;
+        font-family: "Inter", sans-serif;
+        font-size: 90%;
+        color: white;
+        transition: 0.3s;
+    }
+    .footer-a1:hover{
+        color: #FF0000;
+        transition: 0.3s;
+    }
+    .footer-div3{
+        width: 10%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .sn-logo1{
+        width: 65%;
+        height: 30%;
+    }
+    .footer-div4{
+        width: 13%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .text1-footer-div4{
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        font-size: 120%;
+        color: white;
+        line-height: 150%;
+    }
+    .footer-div5{
+        width: 30%;
+        height: 100%;
+    }
+    .footer-div51{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: start;
+    }
+    .text1-footer-div5{
+        font-family: "Inter", sans-serif;
+        font-size: 100%;
+        color: white;
+    }
+    .footer-div52{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .text1-footer-div52{
+        font-family: "Inter", sans-serif;
+        font-size: 100%;
+        color: white;
+        transition: 0.2s;
+    }
+    .text1-footer-div52:hover{
+        color: #FF0000;
+        text-decoration: none;
+        transition: 0.2s;
+    }
+}
+
+
+
+/*iPad Pro 1*/
+@media screen and (min-width: 1365px) and (max-width: 1367px) and (min-height: 1023px) and (max-height: 1025px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: #6B000E;
+    }
+    main{
+        width: 100%;
+        height: 100vh;
+        background-image: url(/main/images/fon1.png);
+        background-repeat: no-repeat;
+        background-size: 250%;
+        background-position: -80vw 8vh;
+    }
+    header{
+        width: 100%;
+        height: 8vh;
+        background-color: #1F0307;
+        box-shadow: 0vh 1vh 1vh #1F0307;
+        display: flex;
+        justify-content: space-around;
+    }
+    .header11{
+        width: 23%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo1{
+        height: 100%;
+    }
+    .header12{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 0;
+    }
+    .head-button1{
+        width: 13vw;
+        height: 5vh;
+        border: none;
+        background-color: #430710;
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 180%;
+        border-radius: 0.5vh;
+        transition: 0.3s;
+    }
+    .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+    
+      .head-button1-content {
+        display: none;
+        position: absolute;
+        left: 30vw;
+        top: 8vh;
+        width: 0vw;
+        height: 0vh;
+        background-color: #f9f9f9;
+        overflow: hidden;
+        border-radius: 1vh;
+        z-index: 1;
+      }
+      
+      .head-button1-content a {
+        float: none;
+        color: black;
+        padding: 1.5vh 1.5vw;
+        text-decoration: none;
+        display: none;
+        text-align: left;
+        overflow: hidden;
+      }
+    
+    .btn-content-link1{
+        font-family: "Roboto Mono", monospace;
+        font-size: 2vh;
+        font-weight: 700;
+    }
+      
+      .head-button1-content a:hover {
+        background-color: #ddd;
+        border-radius: 1vh;
+        color: #FF0000;
+        display: none;
+      }
+      
+      .dropdown:hover .head-button1-content {
+        display: block;
+      }
+    
+    
+    .head-button1:hover{
+        background-color: #BA0018;
+        transition: 0.3s;
+        box-shadow: 0vh 0.5vh 2vh 1vh black;
+        border-radius: 1vh;
+    }
+    .head-button2{
+        width: 14vw;
+        height: 5vh;
+        border: none;
+        background-color: #430710;
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 160%;
+        border-radius: 0.5vh;
+    }
+    .head-button2:hover{
+        background-color: #BA0018;
+        transition: 0.3s;
+    }
+    .head-button3{
+        width: 12vw;
+        height: 5vh;
+        border: none;
+        background-color: #430710;
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 180%;
+        border-radius: 0.5vh;
+    }
+    .head-button3:hover{
+        background-color: #BA0018;
+        transition: 0.3s;
+    }
+    .header13{
+        width: 25%;
+        height: 100%;
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+    }
+    .head-text1{
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 130%;
+        font-weight: 400;
+    }
+    
+    
+    
+    .tittle-center-text{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .tittle-text1{
+        width: 100%;
+        height: 24vh;
+        font-size: 800%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        margin-top: 0;
+
+        text-shadow: 0.5vh 0.5vh 0.5vh black;  
+    }
+    .tittle-text2{
+        color: #B50000;
+    }
+    
+    
+    
+    .main-bottom{
+        width: 100%;
+        height: 32%;
+        background-color: #212121;
+        box-shadow: 0vh -5vh 3vh #212121;
+        display: block;
+    }
+    .main-bottom-text1{
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 250%;
+        font-weight: 900;
+        font-style: italic;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        padding-top: 5vh;
+        letter-spacing: -0.05vw;
+        text-shadow: 0.5vh 0.5vh 0.5vh black;
+    }
+    .main-bottom-text2{
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 250%;
+        font-weight: 200;
+        margin-left: 3vw;
+        margin-top: 2vh;
+        text-shadow: 0.5vh 0.5vh 0.5vh black;
+    }
+    
+    
+    
+    .section1{
+        width: 100%;
+        height: 120vh;
+        background-color: #6B000E;
+    }
+    .div-text11{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .text11{
+        font-size: 7vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.5vh 0.5vh 0.1vh black;
+        text-align: center;
+    }
+    .div-text12{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text12{
+        font-size: 2.9vh;
+        font-family: "Inter", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.1vh black;
+        text-align: center;
+        font-style: normal;
+        font-weight: 300;
+    }
+    .card-box1{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .card-box-item1{
+        width: 20%;
+        height: 60%;
+        background-color: #FFFFFF;
+        border-radius: 2.5vh;
+        margin-right: 2vw;
+        margin-left: 2vw;
+    }
+    .card-box-div-image1{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-icon1{
+        width: 45%;
+        height: 85%;
+    }
+    .card-box-div-text1{
+        width: 100%;
+        height: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-text1{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size: 2.8vh;
+        font-family: "Inter", sans-serif;
+        color: black;
+    }
+    .div-button1{
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-aboutus{
+        width: 20vw;
+        height: 6vh;
+        border: none;
+        background-color: #860012;
+        border-radius: 0.8vh;
+        font-size: 3.5vh;
+        font-family: "Russo One", sans-serif;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        color: white;
+        transition: 0.3s;
+    }
+    .button-aboutus:hover{
+        background-color: #B50000;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+        width: 25vw;
+        height: 6vh;
+    }
+    
+    
+    
+    .section2{
+        width: 100%;
+        height: 100vh;
+        background-color: #6B000E;
+    }
+    .title-section2{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title-section2-text1{
+        font-size: 6vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.5vh 0.5vh 0.1vh black;
+    }
+    .uslugi{
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .usluga1{
+        width: 23%;
+        height: 100%;
+        background-color: #FFFFFF;
+        border-radius: 1.5vh;
+        margin-right: 1vw;
+    }
+    .img-usluga1{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .usluga-img1{
+        width: 90%;
+        height: 90%;
+    }
+    .text-usluga1{
+        width: 80%;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .usluga-text1{
+        font-family: "Inter", sans-serif;
+        color: black;
+        font-size: 2vh;
+        font-weight: 600;
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+    }
+    .usluga-text2{
+        font-family: "Inter", sans-serif;
+        color: black;
+        font-size: 1.4vh;
+        font-weight: 600;
+        margin-left: 1.5vw;
+        margin-right: 0vw;
+        margin-top: 1vh;
+    }
+    .section2-button1{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-uslugi{
+        width: 125%;
+        height: 7vh;
+        border: none;
+        background-color: #860012;
+        border-radius: 0.8vh;
+        font-size: 4vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+    }
+    .button-uslugi:hover{
+        background-color: #B50000;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+        width: 45vw;
+        height: 7vh;
+    }
+    
+    
+    
+    .section3{
+        width: 100%;
+        height: 100vh;
+        background-color: #6B000E;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-fon1{
+        width: 100%;
+        height: 70%;
+        background-image: url(/main/images/fon-mercedes.png);
+        background-size: 150%;
+        background-repeat: no-repeat;
+        background-position: -50vw 20vh;
+    }
+    .img-fon-title-text{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .img-fon-text1{
+        text-align: center;
+        font-size: 5vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+    }
+    .img-fon-text12{
+        color: #FF0000;
+        font-size: 100%;
+    }
+    .img-fon-lil-text1{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    .img-fon-text2{
+        font-family: "Inter", sans-serif;
+        color: white;
+        font-size: 5vh;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+        text-align: center;
+        margin-top: 3vh;
+    }
+    
+    
+    
+    .section4{
+        width: 100%;
+        height: 100vh;
+        background-color: #6B000E;
+    }
+    .section4-title{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .section4-title-text1{
+        font-size: 5vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+    }
+    .section4-title-text12{
+        color: #FF0000;
+    }
+    .section4-map{
+        width: 100%;
+        height: 65%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .map-section4{
+        width: 90%;
+        height: 90%;
+    }
+    
+    
+    
+    .section5{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        background-color: #6B000E;
+        flex-wrap: wrap;
+    }
+    .section5-left{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section5-right{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section5-left-text{
+        font-size: 2.5vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+    .text1-section5-left{
+        color: #FF0000;
+    }
+    .text2-section5-left{
+        font-family: "Inter", sans-serif;
+    }
+    .block-section5{
+        width: 80%;
+        height: 33vh;
+        background-color: white;
+        border-radius: 3vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .input1-section5{
+        width: 90%;
+        height: 10%;
+        font-size: 150%;
+        margin-left: 1.5vw;
+        margin-top: 3vh;
+        border: none;
+        border-bottom: 0.25vh solid black;
+    }
+    .input2-section5{
+        width: 90%;
+        height: 10%;
+        font-size: 150%;
+        margin-left: 1.5vw;
+        margin-top: 3vh;
+        border: none;
+        border-bottom: 0.25vh solid black;
+    }
+    .input3-section5{
+        width: 90%;
+        height: 10%;
+        font-size: 150%;
+        margin-left: 1.5vw;
+        margin-top: 3vh;
+        border: none;
+        border-bottom: 0.25vh solid black;
+    }
+    .input4-section5{
+        width: 15vw;
+        height: 3vh;
+        font-size: 1.5vh;
+        margin-left: 1vw;
+        margin-top: 3vh;
+    }
+    .div2-input4-section5{
+        width: 90%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text1-input4-section5{
+        margin-top: 2vh;
+        margin-left: 1.5vw;
+        font-size: 1.5vh;
+        font-family: "Inter", sans-serif;
+        color: black;
+    }
+    .input5-section5-submit1{
+        width: 40%;
+        height: 50%;
+        border: none;
+        background-color: #6B000E;
+        border-radius: 0.8vh;
+        font-size: 2.5vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+    }
+    .input5-section5-submit1:hover{
+        background-color: #B50000;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+    }
+    .div3-input5-section5-submit1{
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    footer{
+        width: 100%;
+        height: 18%;
+        display: flex;
+        background-color: #200307;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer-div1{
+        width: 13%;
+        height: 100%;
+        background-color: #00000000;
+        display: flex;
+        align-items: center;
+    }
+    .logo1-footer{
+        width: 100%;
+        height: 100%;
+    }
+    .footer-div2{
+        width: 25%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .footer-a1{
+        text-decoration: none;
+        font-family: "Inter", sans-serif;
+        font-size: 2.5vh;
+        color: white;
+        transition: 0.3s;
+    }
+    .footer-a1:hover{
+        color: #FF0000;
+        transition: 0.3s;
+    }
+    .footer-div3{
+        width: 10%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .sn-logo1{
+        width: 65%;
+        height: 30%;
+    }
+    .footer-div4{
+        width: 13%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .text1-footer-div4{
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        font-size: 2vh;
+        color: white;
+        line-height: 150%;
+    }
+    .footer-div5{
+        width: 30%;
+        height: 100%;
+    }
+    .footer-div51{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: start;
+    }
+    .text1-footer-div5{
+        font-family: "Inter", sans-serif;
+        font-size: 2vh;
+        color: white;
+    }
+    .footer-div52{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .text1-footer-div52{
+        font-family: "Inter", sans-serif;
+        font-size: 2.3vh;
+        color: white;
+        transition: 0.2s;
+    }
+    .text1-footer-div52:hover{
+        color: #FF0000;
+        text-decoration: none;
+        transition: 0.2s;
+    }
+}
+
+
+
+/*iPad Pro 2*/
+@media screen and (min-width: 1023px) and (max-width: 1025px) and (min-height: 1365px) and (max-height: 1367px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: #6B000E;
+    }
+    main{
+        width: 100%;
+        height: 100vh;
+        background-image: url(/main/images/fon1.png);
+        background-repeat: no-repeat;
+        background-size: 250%;
+        background-position: -80vw 8vh;
+    }
+    header{
+        width: 100%;
+        height: 8vh;
+        background-color: #1F0307;
+        box-shadow: 0vh 1vh 1vh #1F0307;
+        display: flex;
+        justify-content: space-around;
+    }
+    .header11{
+        width: 23%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo1{
+        height: 100%;
+    }
+    .header12{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 0;
+    }
+    .head-button1{
+        width: 13vw;
+        height: 5vh;
+        border: none;
+        background-color: #430710;
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 180%;
+        border-radius: 0.5vh;
+        transition: 0.3s;
+    }
+    .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+    
+      .head-button1-content {
+        display: none;
+        position: absolute;
+        left: 30vw;
+        top: 8vh;
+        width: 0vw;
+        height: 0vh;
+        background-color: #f9f9f9;
+        overflow: hidden;
+        border-radius: 1vh;
+        z-index: 1;
+      }
+      
+      .head-button1-content a {
+        float: none;
+        color: black;
+        padding: 1.5vh 1.5vw;
+        text-decoration: none;
+        display: none;
+        text-align: left;
+        overflow: hidden;
+      }
+    
+    .btn-content-link1{
+        font-family: "Roboto Mono", monospace;
+        font-size: 2vh;
+        font-weight: 700;
+    }
+      
+      .head-button1-content a:hover {
+        background-color: #ddd;
+        border-radius: 1vh;
+        color: #FF0000;
+        display: none;
+      }
+      
+      .dropdown:hover .head-button1-content {
+        display: none;
+      }
+    
+    
+    .head-button1:hover{
+        background-color: #BA0018;
+        transition: 0.3s;
+        box-shadow: 0vh 0.5vh 2vh 1vh black;
+        border-radius: 1vh;
+    }
+    .head-button2{
+        width: 14vw;
+        height: 5vh;
+        border: none;
+        background-color: #430710;
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 160%;
+        border-radius: 0.5vh;
+    }
+    .head-button2:hover{
+        background-color: #BA0018;
+        transition: 0.3s;
+    }
+    .head-button3{
+        width: 12vw;
+        height: 5vh;
+        border: none;
+        background-color: #430710;
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 180%;
+        border-radius: 0.5vh;
+    }
+    .head-button3:hover{
+        background-color: #BA0018;
+        transition: 0.3s;
+    }
+    .header13{
+        width: 25%;
+        height: 100%;
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+    }
+    .head-text1{
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-size: 130%;
+        font-weight: 400;
+    }
+    
+    
+    
+    .tittle-center-text{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .tittle-text1{
+        width: 100%;
+        height: 24vh;
+        font-size: 800%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        margin-top: 0;
+
+        text-shadow: 0.5vh 0.5vh 0.5vh black;  
+    }
+    .tittle-text2{
+        color: #B50000;
+    }
+    
+    
+    
+    .main-bottom{
+        width: 100%;
+        height: 32%;
+        background-color: #212121;
+        box-shadow: 0vh -5vh 3vh #212121;
+        display: block;
+    }
+    .main-bottom-text1{
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 250%;
+        font-weight: 900;
+        font-style: italic;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        padding-top: 5vh;
+        letter-spacing: -0.05vw;
+        text-shadow: 0.5vh 0.5vh 0.5vh black;
+    }
+    .main-bottom-text2{
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 250%;
+        font-weight: 200;
+        margin-left: 3vw;
+        margin-top: 2vh;
+        text-shadow: 0.5vh 0.5vh 0.5vh black;
+    }
+    
+    
+    
+    .section1{
+        width: 100%;
+        height: 120vh;
+        background-color: #6B000E;
+    }
+    .div-text11{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .text11{
+        font-size: 250%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.5vh 0.5vh 0.1vh black;
+        text-align: center;
+    }
+    .div-text12{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text12{
+        font-size: 2.5vh;
+        font-family: "Inter", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.1vh black;
+        text-align: center;
+        font-style: normal;
+        font-weight: 300;
+    }
+    .card-box1{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .card-box-item1{
+        width: 30%;
+        height: 45%;
+        background-color: #FFFFFF;
+        border-radius: 2.5vh;
+        margin-right: 2vw;
+        margin-left: 2vw;
+    }
+    .card-box-div-image1{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-icon1{
+        width: 45%;
+        height: 85%;
+    }
+    .card-box-div-text1{
+        width: 100%;
+        height: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-text1{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size: 2.5vh;
+        font-family: "Inter", sans-serif;
+        color: black;
+    }
+    .div-button1{
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-aboutus{
+        width: 25vw;
+        height: 6vh;
+        border: none;
+        background-color: #860012;
+        border-radius: 0.8vh;
+        font-size: 3.5vh;
+        font-family: "Russo One", sans-serif;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        color: white;
+        transition: 0.3s;
+    }
+    .button-aboutus:hover{
+        background-color: #B50000;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+        width: 25vw;
+        height: 6vh;
+    }
+    
+    
+    
+    .section2{
+        width: 100%;
+        height: 100vh;
+        background-color: #6B000E;
+    }
+    .title-section2{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title-section2-text1{
+        font-size: 330%;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.5vh 0.5vh 0.1vh black;
+    }
+    .uslugi{
+        width: 100%;
+        height: 73vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: start;
+        flex-wrap: wrap;
+    }
+    .usluga1{
+        width: 35%;
+        height: 48%;
+        background-color: #FFFFFF;
+        border-radius: 1.5vh;
+        margin-right: 1vw;
+    }
+    .img-usluga1{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .usluga-img1{
+        width: 90%;
+        height: 90%;
+    }
+    .text-usluga1{
+        width: 80%;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .usluga-text1{
+        font-family: "Inter", sans-serif;
+        color: black;
+        font-size: 2vh;
+        font-weight: 700;
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+    }
+    .usluga-text2{
+        font-family: "Inter", sans-serif;
+        color: black;
+        font-size: 1.2vh;
+        font-weight: 600;
+        margin-left: 1.5vw;
+        margin-right: 0vw;
+        margin-top: 1vh;
+    }
+    .section2-button1{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-uslugi{
+        width: 25vw;
+        height: 7vh;
+        border: none;
+        background-color: #860012;
+        border-radius: 0.8vh;
+        font-size: 2.5vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+    }
+    .button-uslugi:hover{
+        background-color: #B50000;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+        width: 45vw;
+        height: 7vh;
+    }
+    
+    
+    
+    .section3{
+        width: 100%;
+        height: 100vh;
+        background-color: #6B000E;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-fon1{
+        width: 100%;
+        height: 70%;
+        background-image: url(/main/images/fon-mercedes.png);
+        background-size: 150%;
+        background-repeat: no-repeat;
+        background-position: -50vw 20vh;
+    }
+    .img-fon-title-text{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .img-fon-text1{
+        text-align: center;
+        font-size: 3vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+    }
+    .img-fon-text12{
+        color: #FF0000;
+        font-size: 100%;
+    }
+    .img-fon-lil-text1{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    .img-fon-text2{
+        font-family: "Inter", sans-serif;
+        color: white;
+        font-size: 180%;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+        text-align: center;
+        margin-top: 3vh;
+    }
+    
+    
+    
+    .section4{
+        width: 100%;
+        height: 100vh;
+        background-color: #6B000E;
+    }
+    .section4-title{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .section4-title-text1{
+        font-size: 5vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+    }
+    .section4-title-text12{
+        color: #FF0000;
+    }
+    .section4-map{
+        width: 100%;
+        height: 65%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .map-section4{
+        width: 90%;
+        height: 90%;
+    }
+    
+    
+    
+    .section5{
+        width: 100%;
+        height: 33vh;
+        display: flex;
+        background-color: #6B000E;
+        flex-wrap: wrap;
+    }
+    .section5-left{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section5-right{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section5-left-text{
+        font-size: 2vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        text-shadow: 0.3vh 0.3vh 0.3vh black;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+    .text1-section5-left{
+        color: #FF0000;
+    }
+    .text2-section5-left{
+        font-family: "Inter", sans-serif;
+    }
+    .block-section5{
+        width: 90%;
+        height: 100%;
+        background-color: white;
+        border-radius: 3vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .input1-section5{
+        width: 90%;
+        height: 10%;
+        font-size: 150%;
+        margin-left: 3vw;
+        margin-top: 3vh;
+        border: none;
+        border-bottom: 0.25vh solid black;
+    }
+    .input2-section5{
+        width: 90%;
+        height: 10%;
+        font-size: 150%;
+        margin-left: 3vw;
+        margin-top: 3vh;
+        border: none;
+        border-bottom: 0.25vh solid black;
+    }
+    .input3-section5{
+        width: 90%;
+        height: 10%;
+        font-size: 150%;
+        margin-left: 3vw;
+        margin-top: 3vh;
+        border: none;
+        border-bottom: 0.25vh solid black;
+    }
+    .input4-section5{
+        width: 15vw;
+        height: 3vh;
+        font-size: 1.5vh;
+        margin-left: 1.8vw;
+        margin-top: 3vh;
+    }
+    .div2-input4-section5{
+        width: 90%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text1-input4-section5{
+        margin-top: 2vh;
+        margin-left: 3vw;
+        font-size: 1.5vh;
+        font-family: "Inter", sans-serif;
+        color: black;
+    }
+    .input5-section5-submit1{
+        width: 40%;
+        height: 50%;
+        border: none;
+        background-color: #6B000E;
+        border-radius: 0.8vh;
+        font-size: 2vh;
+        font-family: "Russo One", sans-serif;
+        color: white;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+    }
+    .input5-section5-submit1:hover{
+        background-color: #B50000;
+        box-shadow: 0.5vh 0.5vh 0.5vh black;
+        transition: 0.3s;
+    }
+    .div3-input5-section5-submit1{
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    footer{
+        width: 100%;
+        height: 18%;
+        display: flex;
+        background-color: #200307;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .footer-div1{
+        width: 13%;
+        height: 100%;
+        background-color: #00000000;
+        display: flex;
+        align-items: center;
+    }
+    .logo1-footer{
+        width: 100%;
+        height: 100%;
+    }
+    .footer-div2{
+        width: 25%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .footer-a1{
+        text-decoration: none;
+        font-family: "Inter", sans-serif;
+        font-size: 1.5vh;
+        color: white;
+        transition: 0.3s;
+    }
+    .footer-a1:hover{
+        color: #FF0000;
+        transition: 0.3s;
+    }
+    .footer-div3{
+        width: 10%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .sn-logo1{
+        width: 65%;
+        height: 30%;
+    }
+    .footer-div4{
+        width: 13%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .text1-footer-div4{
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        font-size: 120%;
+        color: white;
+        line-height: 150%;
+    }
+    .footer-div5{
+        width: 30%;
+        height: 100%;
+    }
+    .footer-div51{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: start;
+    }
+    .text1-footer-div5{
+        font-family: "Inter", sans-serif;
+        font-size: 1.5vh;
+        color: white;
+    }
+    .footer-div52{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .text1-footer-div52{
+        font-family: "Inter", sans-serif;
+        font-size: 1.5vh;
+        color: white;
+        transition: 0.2s;
+    }
+    .text1-footer-div52:hover{
+        color: #FF0000;
+        text-decoration: none;
+        transition: 0.2s;
+    }
+}
